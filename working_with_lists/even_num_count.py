@@ -5,4 +5,4 @@ count = 0
 for i in sample_list:
     if i % 2 == 0:
         count += 1
-print(f"Total number of even digits in {sample_list} is {count}")
+print(f"Total number of even numbers in {sample_list} is {count}")
