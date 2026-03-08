@@ -1,4 +1,5 @@
-#checking if number 4 exists in the user_input_num
+#checking if number 7 exists in the 
+# Concept : using while loop, break and floor division
 
 user_input_num = int(input("Enter the number to check : "))
 num_check = False

@@ -1,5 +1,5 @@
 # check if a number is Palindrome
-# concept : using while loop to check Palindrome
+# concept : using while loop and reverse of user input to check Palindrome
 
 user_input = int(input("Enter the number(except negative numbers): "))
 original_num = user_input

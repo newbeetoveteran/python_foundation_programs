@@ -1,3 +1,5 @@
+#python program to print centre aligned pyramid pattern
+#concept : using for loops to iterate spaces and stars
 
 star_count = 5
 star_pattern = "*"

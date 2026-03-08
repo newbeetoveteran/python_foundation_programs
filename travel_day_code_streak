@@ -1,4 +1,0 @@
-character = "mynameisnewbeetoveteran"
-for char in character:
-    if char != "s":
-        print(char)
