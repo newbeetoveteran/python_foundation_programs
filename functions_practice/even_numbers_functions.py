@@ -1,4 +1,5 @@
 # Program to find even numbers in a list
+# Concept : loops, functions and append
 
 original_list = []
 for i in range(4):
