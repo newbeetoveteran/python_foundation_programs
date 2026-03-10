@@ -1,5 +1,5 @@
 # Find the largest number in the list
-# Concept : Using function, loops and append
+# Concept : Using function, loops and append. Not using the max function
 
 main_list = []
 
