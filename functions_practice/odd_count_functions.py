@@ -4,7 +4,7 @@
 
 original_list = []
 for i in range(3):
-    user_input_list = int(input("Enter list numbers: "))
+    user_input_list = int(input(f"Enter list numbers {i+1}: "))
     original_list.append(user_input_list)
 print(f"Entered numbers are: {original_list}")
 
