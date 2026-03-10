@@ -7,10 +7,15 @@ for i in range(4):
     original_list.append(user_input)
 print(f"Entered list is: {original_list}")
 
+
 def even_num(numbers):
     list_items = []
+    count = 0
     for i in numbers:
         if i % 2 == 0:
             list_items.append(i)
-    return list_items
-print(f"Even number/s in the list are: {even_num(original_list)} ")
+            count += 1
+    return list_items, count
+evens, total_count = even_num(original_list)
+print(f"Even number/s in the list are: {evens}")
+print(f"Total count of even numbers is: {total_count}")
